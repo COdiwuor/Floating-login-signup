@@ -54,7 +54,7 @@
           <input type="text">
         </label>
         <label>
-          <span>Email</span>
+          <span>Email Address</span>
           <input type="email">
         </label>
         <label>
