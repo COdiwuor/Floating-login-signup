@@ -13,11 +13,11 @@
       <h2>Sign In</h2>
       <label>
         <span>Email Address</span>
-        <input type="email" name="email">
+        <input type="email" id="email" name="email" required>
       </label>
       <label>
         <span>Password</span>
-        <input type="password" name="password">
+        <input type="password" id="password" name="password" required>
       </label>
       <button class="submit" type="button">Sign In</button>
       <p class="forgot-pass">Forgot Password ?</p>
@@ -50,20 +50,20 @@
       <div class="form sign-up">
         <h2>Sign Up</h2>
         <label>
-          <span>Name</span>
-          <input type="text">
+          <span>Username</span>
+          <input type="text" id="username" name="username" required>
         </label>
         <label>
           <span>Email Address</span>
-          <input type="email">
+          <input type="email" id="email" name="email" required >
         </label>
         <label>
           <span>Password</span>
-          <input type="password">
+          <input type="password" id="password" name="password" required>
         </label>
         <label>
           <span>Confirm Password</span>
-          <input type="password">
+          <input type="password" reqired>
         </label>
         <button type="button" class="submit">Sign Up Now</button>
       </div>
